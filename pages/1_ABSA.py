@@ -7,7 +7,7 @@ with open('finalized_model_absa.pkl', 'rb') as f:
 
 
 text_input = st.text_input(
-    "Enter some text 👇"
+    "Masukkan teks ulasan yang diinginkan 👇"
 )
 
 if text_input:
