@@ -1,6 +1,7 @@
 import pickle
 import streamlit as st
 from sklearn.feature_extraction.text import CountVectorizer
+import pandas as pd
 
 with open('finalized_model_absa.pkl', 'rb') as f:
     vec_kartu, vec_internet, vec_harga, model_kartu, model_internet, model_harga = pickle.load(f)
